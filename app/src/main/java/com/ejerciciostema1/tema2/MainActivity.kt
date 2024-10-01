@@ -79,8 +79,6 @@ fun MesajeBienvenida(pizzaria: String = "pizzeria" , direccion: String= "C/ Mayo
             text= "$descripccion",
             textAlign = TextAlign.Right,
             modifier = Modifier.fillMaxWidth()
-
-
         )
         Row(horizontalArrangement = Arrangement.Center) {
 
